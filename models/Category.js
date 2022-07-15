@@ -7,35 +7,27 @@ class Category extends Model {}
 Category.init(
   
   {
-    category_id: {
+      id: {
       type: DataTypes.INTEGER,
       primaryKey: true,
+      allowNull: false,
       autoIncrement: true
     },
-    Shirts: {
-      type:DataTypes.STRING
+
+    category_name: {
+      type:DataTypes.STRING,
+    
     },
-    Shorts: {
-      type:DataTypes.STRING
-    },
-    Music: {
-      type:DataTypes.STRING
-    },
-    Hats: {
-      type:DataTypes.STRING
-    },
-    Shoes: {
-      type:DataTypes.STRING
-    }
+  
       
-    },
+  },
    
   {
     sequelize,
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'category',
+    modelName: 'category'
   }
 );
 
