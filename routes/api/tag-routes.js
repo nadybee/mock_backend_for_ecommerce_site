@@ -47,7 +47,9 @@ router.get('/:id', async (req, res) => {
 
  // create a new tag
     /* req.body should look like this... 
-    { "tag_name": "yoodlize blue"}
+    { 
+      "tag_name": "yoodlize blue"
+    }
     */
 router.post('/', async (req, res) => {
   try {
