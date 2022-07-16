@@ -11,16 +11,32 @@
   - [License](#License)
 
   ## Description
-  The app creates a mock data base using node,  epxpress and sequesllize. You can test ageting,p posting,  updating and deleting the data.
+  The app creates a mock database using node,  express and sequellize. You can use something like insomina to get post, update and delete the data. 
 
   ## Usage
+  This is a command line app.  After installing and running the app, you can get/post/update or delete using insomina or postman. Please use the walk through video to see how to use this application. 
   
 
   ## Installation
-  
+  * Clone or download the repository.
+  * Rename the `.env.example` file to `.env` and add your own credientals to the file.
+  * open the db file in the terminal and login in to mysql with the `mysql -u root -p`
+  * run `source schema.sql`
+  * open `server.js` in the terminal and run `npm install`
+  * run `npm start` to use the models.
+  * open the seeds folder in the terminal and run `node index.js` to seed the database.
+
+  Now the program is ready to use in insomnia! endpoints are:
+ - `/api/categories`
+  - `/api/products`
+ - `/api/tags`
+
+  see routes respective files for what the bodies should look like.    
+
 
   ## Contributors
-  start code can be found here. Natalie Fairbourne
+  - Natalie Fairbourne
+  - This project with build with starter code, it can be found [here](https://github.com/coding-boot-camp/fantastic-umbrella). 
 
   ## Tests
   none
