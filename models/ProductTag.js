@@ -20,6 +20,7 @@ ProductTag.init(
       references: {
         model: Product,
         key: "id",
+        unique: false
       },
     },
 
@@ -28,6 +29,7 @@ ProductTag.init(
       references: {
         model: Tag,
         key: "id",
+        unique: false
       },
     },
   },
