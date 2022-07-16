@@ -15,6 +15,8 @@
 
   ## Usage
   This is a command line app.  After installing and running the app, you can get/post/update or delete using insomina or postman. Please use the walk through video to see how to use this application. 
+  - walkthrough video part one [here](https://drive.google.com/file/d/1GLx75C_eqALuCW60IXoXc8DEpbpqAAgC/view)
+  - walk through part two [here](https://drive.google.com/file/d/1oNQb-AkqVLZGbaz1qn9sCpu0tfO1l7U3/view)
   
 
   ## Installation
